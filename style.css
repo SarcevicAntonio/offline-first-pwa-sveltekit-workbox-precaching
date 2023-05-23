@@ -1,0 +1,89 @@
+/** fix pre/code ticks */
+:not(pre) > code:before,
+:not(pre) > code:after {
+  content: "";
+}
+:not(pre) > code {
+  padding: 0.125rem;
+}
+
+.shiki-container > .shiki {
+  max-height: 370px;
+  overflow: auto;
+}
+
+/* fix opacity */
+
+.slidev-layout h1 + p {
+  opacity: 1;
+  margin: 0;
+}
+
+/** layout (flex everything) */
+.slidev-layout,
+.col-right,
+.col-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.slidev-layout p,
+.slidev-layout h1 {
+  margin: 0;
+}
+
+.slidev-layout ul,
+.slidev-layout ol {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.slidev-layout ul li ul {
+  display: revert;
+}
+
+/** center content on right column (for images) */
+.col-right {
+  margin: auto;
+}
+
+/** footer layout */
+
+.footer,
+.page-numbers {
+  position: absolute;
+  opacity: 0.75;
+  font-size: 0.75rem;
+  bottom: 0.25rem;
+}
+
+.footer {
+  left: 0.5rem;
+}
+
+.page-numbers {
+  right: 0.5rem;
+}
+
+.hover-right {
+  position: absolute;
+  top: 50%;
+  translate: 0 -50%;
+  right: 3.5rem;
+  display: flex;
+  justify-content: end;
+  max-height: 85%;
+  max-width: 25rem;
+}
+
+.spoiler {
+  filter: blur(15px);
+}
+
+
+as-grow {
+  flex-grow: 1;
+}
