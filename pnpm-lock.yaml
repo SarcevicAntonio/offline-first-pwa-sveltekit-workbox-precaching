@@ -1,20 +1,26 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@iconify-json/logos': ^1.1.31
   '@iconify-json/material-symbols': ^1.1.24
   '@iconify-json/mdi': ^1.1.52
+  '@iconify-json/vscode-icons': ^1.1.25
+  '@iconify/json': ^2.2.68
   '@slidev/cli': '*'
   '@slidev/theme-default': '*'
   '@slidev/theme-seriph': '*'
 
 dependencies:
+  '@iconify/json': 2.2.68
   '@slidev/cli': 0.41.1
   '@slidev/theme-default': 0.21.2
   '@slidev/theme-seriph': 0.21.3
 
 devDependencies:
+  '@iconify-json/logos': 1.1.31
   '@iconify-json/material-symbols': 1.1.24
   '@iconify-json/mdi': 1.1.52
+  '@iconify-json/vscode-icons': 1.1.25
 
 packages:
 
@@ -562,6 +568,12 @@ packages:
       '@iconify/types': 2.0.0
     dev: false
 
+  /@iconify-json/logos/1.1.31:
+    resolution: {integrity: sha512-15u8OWZREIS02+ZRS6sXJ6AfhsK2+p5dw2XvMsMd0UJKGNvRmL1STPdHXtOhOe7lQ/YsmcvtpZXDJfcdBmcoPQ==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
   /@iconify-json/material-symbols/1.1.24:
     resolution: {integrity: sha512-yg7KGVbrQ5NU/BZWj+rfEoeR3JA8ehCvY1SgrW+iuZjzZk3qm1sQcwQ5AktvEx/Hx9qnqQMMpscQJRPJxOq6rQ==}
     dependencies:
@@ -578,6 +590,19 @@ packages:
     resolution: {integrity: sha512-iLXq3nohfGge22gL2tZmQ2WHBKkKkIbGWrkuyC8arckS4PWaONyh4A+uDPtSek9QbYDvi9AE2+NxWkNZhANotA==}
     dependencies:
       '@iconify/types': 2.0.0
+    dev: false
+
+  /@iconify-json/vscode-icons/1.1.25:
+    resolution: {integrity: sha512-TA4NuBffMLHlAAZ2URBtPy39+SuO35ThjUvaaUrd8+/KYijIUAU5prHW8j+EGVtajFZl+DT1TxAVdOXpijuFSg==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify/json/2.2.68:
+    resolution: {integrity: sha512-UNgbecms1tWhvY9ycXbWW/nOLlx5Xxlufp+dHWontty0j+yiQfap3UshpSGGAt74C9OLYEFKTl42d20PLRakzg==}
+    dependencies:
+      '@iconify/types': 2.0.0
+      pathe: 1.1.0
     dev: false
 
   /@iconify/types/2.0.0:

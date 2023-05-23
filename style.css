@@ -45,6 +45,13 @@
   display: revert;
 }
 
+/** intro*/
+.slidev-layout.cover .my-auto.w-full {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 /** center content on right column (for images) */
 .col-right {
   margin: auto;
@@ -82,7 +89,6 @@
 .spoiler {
   filter: blur(15px);
 }
-
 
 as-grow {
   flex-grow: 1;

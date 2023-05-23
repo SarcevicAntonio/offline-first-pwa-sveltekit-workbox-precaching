@@ -2,15 +2,17 @@
 highlighter: shiki
 layout: cover
 lineNumbers: true
-background: https://images.pexels.com/photos/2440078/pexels-photo-2440078.jpeg?cs=srgb&dl=pexels-ian-beckley-2440078.jpg&fm=jpg&w=3604&h=5501
+background: https://images.pexels.com/photos/3387174/pexels-photo-3387174.jpeg?cs=srgb&dl=pexels-vlad-che%C8%9Ban-3387174.jpg&fm=jpg&w=5133&h=3422
 title: Slides
 ---
 
-# Some Slides...
+# Create an offline-first and installable Web App
+
+## with <logos-svelte-icon/> SvelteKit and <file-icons-workbox/> workbox-precaching
 
 Antonio Sarcevic - 2023
 
-<img class="hover-right w-40" src="/as.svg" alt="Antonio Sarcevic Logo">
+<img class="hover-right w-40" src="/icon.svg" alt="Offline Svelte App Logo">
 
 <!-- prettier-ignore-start -->
 <!--
@@ -24,8 +26,10 @@ image: https://images.pexels.com/photos/1840142/pexels-photo-1840142.jpeg?cs=srg
 
 # <material-symbols-view-agenda/> Overview
 
-- <material-symbols-format-list-bulleted-rounded/> Some Bullet Points
-- <material-symbols-code-blocks-outline-rounded/> Some Code
+- <simple-icons-pwa/> What is PWA?
+- <material-symbols-emoji-symbols-rounded/> App Icons
+- <material-symbols-document-scanner-rounded/> Web App Manifest
+- <material-symbols-settings-suggest-outline-rounded/> Service Worker
 
 <!--
 ...
@@ -33,22 +37,24 @@ image: https://images.pexels.com/photos/1840142/pexels-photo-1840142.jpeg?cs=srg
 
 ---
 
-# <material-symbols-format-list-bulleted-rounded/> Some Bullet Points
+# <simple-icons-pwa/> What is PWA?
 
-- Lorem ipsum dolor sit amet
-- consetetur sadipscing elitr
-- sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat
-  - sed diam voluptua
-- At vero eos et accusam et justo duo dolores et ea rebum.
-  - Stet clita kasd gubergren
-  - no sea takimata sanctus est Lorem ipsum dolor sit amet
-      - Lorem ipsum dolor sit amet
-- sed diam nonumy eirmod tempor invidunt
-- ut labore et dolore magna aliquyam erat
+- PWA stands for progressive web apps
+- browser features
+  - <material-symbols-document-scanner-rounded/> Web App Manifest
+  - <material-symbols-settings-suggest-outline-rounded/> Service Worker
+- native app-like behaviour
+  - <material-symbols-install-mobile-rounded/> installable as "standalone app" on operating systems
+  - <material-symbols-offline-pin-rounded/> offline support / offline-first
 
 <!-- prettier-ignore-start -->
 <!--
-...
+- navigator apis
+- and even more
+  - push notifications
+  - shortcuts / quick actions
+  - protocol handlers
+  - app icon badging
 -->
 ---
 layout: image-right
@@ -65,9 +71,7 @@ image: https://images.pexels.com/photos/1830667/pexels-photo-1830667.jpeg?cs=srg
 - At vero eos et accusam et justo duo dolores et ea rebum.
   - Stet clita kasd gubergren
   - no sea takimata sanctus est Lorem ipsum dolor sit amet
-      - Lorem ipsum dolor sit amet
-
-
+    - Lorem ipsum dolor sit amet
 
 <!--
 ...
@@ -161,6 +165,7 @@ image: https://images.pexels.com/photos/1830667/pexels-photo-1830667.jpeg?cs=srg
 } // erlaubt ein JSON Objekt mit someKey und Wert vom Typ String (z.B. { someKey: "Hello JSON Schema" })
 ```
 
+<!-- prettier-ignore-start -->
 <!--
 - Game Parameters als beschreibung eines JSON Objekts
 - JSON Schema als Spezifikation von JSON Dokumenten
