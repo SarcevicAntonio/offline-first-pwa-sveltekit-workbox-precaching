@@ -26,7 +26,7 @@ image: https://images.pexels.com/photos/3387174/pexels-photo-3387174.jpeg?cs=srg
 - <simple-icons-pwa/> Progressive Web App
 - Native App-like  behaviour
   - <material-symbols-install-mobile-rounded/> installable as "standalone app"
-  - <material-symbols-offline-pin-rounded/> offline support / offline-first
+  - <material-symbols-offline-pin-rounded/> offline-first
 - <material-symbols-document-scanner-rounded/> Web App Manifest
   - provides meta information
 - <material-symbols-settings-suggest-outline-rounded/> Service Worker

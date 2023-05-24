@@ -12,11 +12,11 @@ TLDR code snippets:
   ```json
   {
     "name": "My offline App!",
-    "short_name": "my-offline-app",
+    "short_name": "Offline App",
     "start_url": "/",
     "display": "standalone",
-    "theme_color": "#ffffff",
-    "background_color": "#000000",
+    "theme_color": "#ff3e00",
+    "background_color": "#ffffff",
     "icons": [
       {
         "sizes": "192x192",
@@ -47,7 +47,7 @@ TLDR code snippets:
 
   ```js
   import { build, files, prerendered, version } from "$service-worker";
-  import { cleanupOutdatedCaches, precacheAndRoute } from "workbox-precaching";
+  import { precacheAndRoute } from "workbox-precaching";
 
   const precache_list = [
     "/", // Attention: serves stale index, might not be ideal for your use case.
