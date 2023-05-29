@@ -2,7 +2,7 @@
 
 **[Read Article](https://www.sarcevic.dev/offline-first-installable-pwa-sveltekit-workbox-precaching)**
 
-Slides and Video planned...
+**[Watch Video](https://www.youtube.com/watch?v=Enl4OPQ2OAM)**
 
 TLDR code snippets:
 
