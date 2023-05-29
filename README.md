@@ -1,8 +1,8 @@
 # Create an offline-first and installable PWA with SvelteKit and workbox-precaching
 
-**[Read Article](https://www.sarcevic.dev/offline-first-installable-pwa-sveltekit-workbox-precaching)**
+**[📄 Read Article](https://www.sarcevic.dev/offline-first-installable-pwa-sveltekit-workbox-precaching)**
 
-**[Watch Video](https://www.youtube.com/watch?v=Enl4OPQ2OAM)**
+**[📺 Watch Video](https://www.youtube.com/watch?v=Enl4OPQ2OAM)**
 
 TLDR code snippets:
 
